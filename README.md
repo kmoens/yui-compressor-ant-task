@@ -16,6 +16,7 @@ The name of the Ant task is "yuicompressor" (see the example below). It supports
 |disableOptimizations|No|false|
 |verbose|No|false|
 |todir|Yes|_N/A_|
+|encoding|No|UTF-8|
 
 A full description of the attributes (apart from todir) can be found on the YUI Compressor site: http://developer.yahoo.com/yui/compressor/
 

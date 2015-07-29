@@ -36,11 +36,13 @@
 			<fileset dir="${config.dir}"/>
 		</copy>
 		<jar jarfile="${dist.dir}/${jar.name}" basedir="${build.dir}/jar">
-			<!--
 			<manifest>
-				<attribute name="Class-Path" value="yuicompressor-2.4.2.jar" />
+	            <attribute name="Built-By" value="Kenny Moens" />
+	            <attribute name="Specification-Title" value="YUICompress Ant Task" />
+	            <attribute name="Specification-Vendor" value="Cipal IT solutions nv" />
+	            <attribute name="Implementation-Version" value="${version.number}" />
+	            <attribute name="Implementation-Vendor" value="Cipal IT solutions nv" />
 			</manifest>
-			-->
 		</jar>
 	</target>
 	
